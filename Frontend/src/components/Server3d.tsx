@@ -1,8 +1,7 @@
 // Server3D.tsx
-import React, { useRef } from "react"
+import { useRef } from "react"
 import { Group, Mesh } from "three"
 import { useFrame } from "@react-three/fiber"
-import { Html } from "@react-three/drei"
 
 interface ServerProps {
   id: number
@@ -13,11 +12,9 @@ interface ServerProps {
 }
 
 export default function Server3D({
-  id,
   position,
   temperature,
   isOnline,
-  onTogglePower,
 }: ServerProps) {
   const groupRef = useRef<Group>(null!)
   const fanRef = useRef<Mesh>(null!)

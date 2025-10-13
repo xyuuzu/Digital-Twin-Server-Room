@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
 import RoomScene from "./components/RoomScene";
 import Dashboard from "./components/Dashboard";
@@ -86,7 +86,7 @@ function App() {
         <div className="flex flex-col gap-4">
           {/* 3D View - Compact */}
           <div className="bg-white rounded-xl shadow-md overflow-hidden" style={{ height: '350px' }}>
-            <RoomScene servers={servers} acOn={acOn} />
+            <RoomScene servers={servers} acOn={acOn} toggleServer={toggleServer} />
           </div>
 
           {/* Temperature Chart - Full Width */}

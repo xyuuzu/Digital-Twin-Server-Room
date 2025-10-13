@@ -1,4 +1,4 @@
-import React, { useRef, useMemo } from "react"
+import  { useRef, useMemo } from "react"
 import { Points, BufferGeometry, Float32BufferAttribute, AdditiveBlending, Color } from "three"
 import { useFrame } from "@react-three/fiber"
 

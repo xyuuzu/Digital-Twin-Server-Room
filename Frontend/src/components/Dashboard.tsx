@@ -1,5 +1,3 @@
-import React from "react";
-
 interface Server {
   id: number;
   temperature: number;

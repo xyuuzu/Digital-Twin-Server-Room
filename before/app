@@ -63,5 +63,6 @@ func main() {
 	mux.HandleFunc("/servers", getServers)
 	mux.HandleFunc("/toggle/", toggleServer)
 
+	
 	http.ListenAndServe(":8080", enableCORS(mux))
 }

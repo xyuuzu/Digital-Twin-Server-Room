@@ -40,7 +40,11 @@ export default function RoomScene({ servers, acOn, toggleServer }: RoomSceneProp
           )
         })}
 
-        <AC position={[0, 3, -3]} isOn={acOn} />
+        <AC position={[0, 3, -6]} isOn={acOn} />
+        <AC position={[3, 3, -6]} isOn={acOn} />
+        <AC position={[-3, 3, -6]} isOn={acOn} />
+
+
       </Canvas>
     </div>
   )

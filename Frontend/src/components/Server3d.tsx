@@ -70,7 +70,7 @@ export default function Server3D({
       {/* FRAME KIPAS BELAKANG */}
       <mesh position={[0, 0, -1.1]}>
         <cylinderGeometry args={[0.3, 0.3, 0.05, 24]} />
-        <meshStandardMaterial color="#1b1f2a" metalness={0.7} roughness={0.4} />
+        <meshStandardMaterial color="#5b5e65ff" metalness={0.7} roughness={0.4} />
       </mesh>
 
       {/* KIPAS */}
